@@ -1,0 +1,34 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="css/loader.css" />
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              // Simulate a delay (you can replace this with your actual content loading logic)
+              setTimeout(function () {
+                var loader = document.getElementById("loader");
+                var content = document.getElementById("content");
+        
+                if (loader && content) {
+                  loader.style.display = "none";
+                  content.style.display = "block";
+                }
+              }, 4000); // Adjust the delay time (in milliseconds) as needed
+            });
+          </script>
+    </head>
+    <body>
+        <div class="banter-loader" id="loader">
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+          </div>
+          
+        
+    </body>
+</html>
